@@ -11,7 +11,7 @@ required_providers {
 }
 
 stack "my-embedded-stack" {
-  source = "tfcdev-86ee0655.ngrok.io/hashicorp/tfstack-component"
+  source = "app.terraform.staging.io/michaelyocca-staging/tfstack-component"
   version = "1.0.0"
 
   inputs = {
